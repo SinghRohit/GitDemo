@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58236" started-at="2019-03-06T06:09:51Z" finished-at="2019-03-06T06:10:49Z">
+    <groups>
+    </groups>
+    <test name="ValidateTitle" duration-ms="11079" started-at="2019-03-06T06:09:51Z" finished-at="2019-03-06T06:10:02Z">
+      <class name="AcademyOnline.validateTitle">
+        <test-method status="PASS" signature="initilizeDriver()[pri:0, instance:AcademyOnline.validateTitle@1afd44cb]" name="initilizeDriver" is-config="true" duration-ms="10426" started-at="2019-03-06T06:09:51Z" finished-at="2019-03-06T06:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeDriver -->
+        <test-method status="FAIL" signature="TitleTest()[pri:0, instance:AcademyOnline.validateTitle@1afd44cb]" name="TitleTest" duration-ms="66" started-at="2019-03-06T06:10:01Z" finished-at="2019-03-06T06:10:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at AcademyOnline.validateTitle.TitleTest(validateTitle.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:AcademyOnline.validateTitle@1afd44cb]" name="closebrowser" is-config="true" duration-ms="93" started-at="2019-03-06T06:10:02Z" finished-at="2019-03-06T06:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- AcademyOnline.validateTitle -->
+    </test> <!-- ValidateTitle -->
+    <test name="HomePage" duration-ms="35813" started-at="2019-03-06T06:10:02Z" finished-at="2019-03-06T06:10:38Z">
+      <class name="AcademyOnline.HomePage">
+        <test-method status="PASS" signature="initilizeDriver()[pri:0, instance:AcademyOnline.HomePage@7c729a55]" name="initilizeDriver" is-config="true" duration-ms="5056" started-at="2019-03-06T06:10:02Z" finished-at="2019-03-06T06:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeDriver -->
+        <test-method status="PASS" signature="basePagenavigation(java.lang.String, java.lang.String)[pri:0, instance:AcademyOnline.HomePage@7c729a55]" name="basePagenavigation" duration-ms="17295" started-at="2019-03-06T06:10:07Z" data-provider="getData" finished-at="2019-03-06T06:10:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePagenavigation -->
+        <test-method status="PASS" signature="basePagenavigation(java.lang.String, java.lang.String)[pri:0, instance:AcademyOnline.HomePage@7c729a55]" name="basePagenavigation" duration-ms="13349" started-at="2019-03-06T06:10:25Z" data-provider="getData" finished-at="2019-03-06T06:10:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[efgh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[efgh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePagenavigation -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:AcademyOnline.HomePage@7c729a55]" name="closebrowser" is-config="true" duration-ms="109" started-at="2019-03-06T06:10:38Z" finished-at="2019-03-06T06:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- AcademyOnline.HomePage -->
+    </test> <!-- HomePage -->
+    <test name="NavigationBar" duration-ms="11280" started-at="2019-03-06T06:10:38Z" finished-at="2019-03-06T06:10:49Z">
+      <class name="AcademyOnline.ValidateNavigationBar">
+        <test-method status="PASS" signature="initilizeDriver()[pri:0, instance:AcademyOnline.ValidateNavigationBar@2e005c4b]" name="initilizeDriver" is-config="true" duration-ms="11121" started-at="2019-03-06T06:10:38Z" finished-at="2019-03-06T06:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeDriver -->
+        <test-method status="PASS" signature="navigationBarTest()[pri:0, instance:AcademyOnline.ValidateNavigationBar@2e005c4b]" name="navigationBarTest" duration-ms="61" started-at="2019-03-06T06:10:49Z" finished-at="2019-03-06T06:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationBarTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:AcademyOnline.ValidateNavigationBar@2e005c4b]" name="closebrowser" is-config="true" duration-ms="97" started-at="2019-03-06T06:10:49Z" finished-at="2019-03-06T06:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- AcademyOnline.ValidateNavigationBar -->
+    </test> <!-- NavigationBar -->
+  </suite> <!-- Suite -->
+</testng-results>
